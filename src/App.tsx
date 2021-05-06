@@ -53,7 +53,7 @@ function App() {
           className="main__men-texting/image-man-texting.anChatting"
         />
         <div className="main__message">
-          <h3 className="main__message-second-title">Built for modern use</h3>
+          <h3 className="main__message-overline">Built for modern use</h3>
           <h2 className="main__message-title">
             Smarter meetings, all in one place
           </h2>
