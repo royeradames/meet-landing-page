@@ -3,14 +3,16 @@ $table: 76.8rem;
 
 .h1{
     font-weight: 900;
-    line-height: var(--line-h1);
+    line-height: 4.4rem;
     color: var(--color-black);
     font-size: 4rem;
     @media(min-width: $table){
         font-size: 4.8rem;
+        line-height: 4.8rem;
     }
     @media(min-width: $desktop){
         font-size: var(--font-size-h1);
+        line-height: var(--line-h1);
     }
 }
 
@@ -21,7 +23,8 @@ $table: 76.8rem;
 
     font-size: 3.6rem;
     @media(min-width: $table){
-        font-size: var(--font-size-h2)
+        font-size: var(--font-size-h2);
+        line-height: var(--line-h2);
     }
 }
 
