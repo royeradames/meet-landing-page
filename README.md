@@ -19,8 +19,6 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
     - [Continued development](#continued-development)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -63,10 +61,7 @@ This was a great project to implement what I already know of React, Sass, and Em
 ### Continued development
 
 I believe that it styles can be simplify by using more flexiable units, and being flexiable withe website not looking like a pixel perfect copy of the design.
-
-
 ## Author
 
 - Website - [Royer Adames](https://www.linkedin.com/in/royer-adames/)
 - Frontend Mentor - [@royeradames](https://www.frontendmentor.io/profile/royeradames)
-
