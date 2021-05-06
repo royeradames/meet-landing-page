@@ -1,5 +1,10 @@
+$desktop: 1440px;
+$table: 768px;
+
 .header{
+    // remove horizontal scrool bar
     overflow: hidden;
+
     display: grid;
     grid-template:
         "logo logo" auto 
@@ -9,14 +14,21 @@
     ;
     justify-items: center;
 
+    
     &__logo{
         grid-area: logo;
         padding: 4.8rem 0  5.4rem 0;
+        @media(min-width: $table){
+            padding: 4.8rem 0  6.4rem 0;
+        }
     }
 
     &__call-to-action{
         grid-area: action;
-        padding: 4.8rem 0  6.3rem 0;
+        padding: 4.9rem 0  6.3rem 0;
+        @media(min-width: $table){
+            padding: 7.2rem 0  6.7rem 0;
+        }
 
         display: grid;
         grid-template:
@@ -25,7 +37,13 @@
         ;
         justify-content: center;
         justify-items: center;
-        
+
+        @media(min-width: $table){
+            grid-template: 
+                1fr
+                / 45.7rem
+            ;
+        }
         &-message{
             margin: 2.3rem 0 3.2rem 0;
         }
@@ -36,9 +54,15 @@
     &__left-img{
         position: relative;
         right: 2rem;
+        @media(min-width: $table){
+            right: 2.6rem;
+        }
     }
     &__right-img{
         position: relative;
         left: 1.9rem;
+        @media(min-width: $table){
+            right: 2.6rem;
+        }
     }
 }
