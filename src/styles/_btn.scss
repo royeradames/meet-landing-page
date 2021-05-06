@@ -2,10 +2,11 @@
     padding: 1.6rem 3.1rem 1.6rem 2.9rem;
     border: 0;
     border-radius: 2.9rem;
+    color: var(--color-white);
+    
 }
 .btn1{
     background-color: var(--color-green);
-    color: var(--color-white);
     &--version{
         color: var(--color-blue);
     }
@@ -15,7 +16,6 @@
 }
 .btn2{
     background-color: var(--color-purple-400);
-    color: var(--color-white);
     &--version{
         color: var(--color-purple-100);
     }
