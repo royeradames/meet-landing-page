@@ -25,7 +25,16 @@ $table: 768px;
             1fr
             / 57.3em
         ;
-        
+    }
+    @media(min-width: $desktop){
+        background-image: url("../assets/desktop/image-footer.jpg");
+        grid-template: 
+            auto
+            / 35rem  35rem 19.3rem
+        ;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
     }
     &__title{
         color: var(--color-white);
