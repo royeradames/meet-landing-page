@@ -48,22 +48,22 @@ function App() {
         <img
           src={womenInVideoCall}
           alt="Women in video call"
-          className="main__women-video-call"
+          className="main__img main__women-video-call"
         />
         <img
           src={womanChatting}
           alt="Three woman chatting on the phone"
-          className="main__woman-chatting"
+          className="main__img main__woman-chatting"
         />
         <img
           src={menInMeeting}
           alt="Men in a meeting"
-          className="main__men-meeting"
+          className="main__img main__men-meeting"
         />
         <img
           src={menTexting}
           alt="Men texting"
-          className="main__men-texting/image-man-texting.anChatting"
+          className="main__img main__img main__men-texting"
         />
         <div className="main__message">
           <h3 className="overline main__message-overline">
