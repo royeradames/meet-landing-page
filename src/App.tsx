@@ -80,12 +80,12 @@ function App() {
         </div>
       </main>
       <footer className="footer">
-        <h2 className="h2 footer_title">Experience more together</h2>
-        <p className="body footer_message">
+        <h2 className="h2 footer__title">Experience more together</h2>
+        <p className="body footer__message">
           Stay connected with reliable HD meetings and unlimited one-on-one and
           group video sessions.
         </p>
-        <button className="btn btn2 ">
+        <button className="btn btn2 footer__btn">
           Download <span className="btn2--version">v1.3</span>
         </button>
       </footer>
