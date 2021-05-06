@@ -1,0 +1,28 @@
+.footer{
+    background-image: url("../assets/mobile/image-footer.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-color: var(--color-green);
+    background-blend-mode: soft-light;
+    display: grid;
+    grid-template: 
+        1fr
+        / 32.7rem
+    ;
+    justify-content: center;
+
+    padding: 9.2rem 0 7.2rem 0;
+
+    &__title{
+        color: var(--color-white);
+    }
+    &__message{
+        color: var(--color-white);
+        margin: 2.4rem 0 3.2rem 0;
+    }
+    &__btn{
+        width: 19.3rem;
+        justify-self: center;
+    }
+
+}
