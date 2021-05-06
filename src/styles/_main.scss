@@ -23,6 +23,18 @@ $table: 768px;
         ;
         gap: 4.8rem 1.1rem;
     }
+    @media(min-width: $desktop){
+        grid-template: 
+            auto
+            auto
+            /
+            25.5rem
+            25.5rem
+            25.5rem
+            25.5rem
+        ;
+        gap: 8rem 3rem;
+    }
     &__img{
         border-radius: .8rem;
     }
@@ -36,6 +48,9 @@ $table: 768px;
 
             //top space move to grid gap 
             margin: 0 0 8rem 0;
+        }
+        @media(min-width: $desktop){
+            margin: 0 0 7.2rem 0;
         }
         
         &-title{
