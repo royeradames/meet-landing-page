@@ -21,10 +21,10 @@ function App() {
         <img src={leftImg} alt="" className="header__left-img" />
         <img src={rightImg} alt="" className="header__left-img" />
         <div className="header__call-to-action">
-          <h1 className="header__call-to-action-title">
+          <h1 className="h1 header__call-to-action-title">
             Group Chat for Everyone
           </h1>
-          <p className="header__call-to-action-message">
+          <p className="body header__call-to-action-message">
             Meet makes it easy to connect with others face-to-face virtually and
             collaborate across any device.
           </p>
@@ -56,11 +56,13 @@ function App() {
           className="main__men-texting/image-man-texting.anChatting"
         />
         <div className="main__message">
-          <h3 className="main__message-overline">Built for modern use</h3>
-          <h2 className="main__message-title">
+          <h3 className="overline main__message-overline">
+            Built for modern use
+          </h3>
+          <h2 className="h2 main__message-title">
             Smarter meetings, all in one place
           </h2>
-          <p className="main__message-content">
+          <p className="body main__message-content">
             Send messages, share files, show your screen, and record your
             meetings — all in one workspace. Control who can join with
             invite-only team access, data encryption, and data export.
@@ -68,8 +70,8 @@ function App() {
         </div>
       </main>
       <footer className="footer">
-        <h1 className="footer_title">Experience more together</h1>
-        <p className="footer_message">
+        <h2 className="h2 footer_title">Experience more together</h2>
+        <p className="body footer_message">
           Stay connected with reliable HD meetings and unlimited one-on-one and
           group video sessions.
         </p>
