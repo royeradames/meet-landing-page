@@ -15,7 +15,7 @@ import menTexting from "./assets/desktop/image-man-texting.jpg";
 
 function App() {
   return (
-    <>
+    <main>
       <header className="header">
         <img src={logo} alt="Meet logo" className="header__logo" />
         <img
@@ -28,7 +28,7 @@ function App() {
           alt="selfies of people in a circle shape"
           className="header__right-img"
         />
-        <div className="header__call-to-action">
+        <article className="header__call-to-action">
           <h1 className="h1 header__call-to-action-title">
             Group Chat for Everyone
           </h1>
@@ -42,9 +42,9 @@ function App() {
           <button className="btn btn2 header__call-to-action-btn2">
             What is it?
           </button>
-        </div>
+        </article>
       </header>
-      <main className="main">
+      <article className="main">
         <img
           src={womenInVideoCall}
           alt="Women in video call"
@@ -65,7 +65,7 @@ function App() {
           alt="Men texting"
           className="main__img main__img main__men-texting"
         />
-        <div className="main__message">
+        <article className="main__message">
           <h3 className="overline main__message-overline">
             Built for modern use
           </h3>
@@ -77,8 +77,8 @@ function App() {
             meetings — all in one workspace. Control who can join with
             invite-only team access, data encryption, and data export.
           </p>
-        </div>
-      </main>
+        </article>
+      </article>
       <footer className="footer">
         <h2 className="h2 footer__title">Experience more together</h2>
         <p className="body footer__message">
@@ -89,7 +89,7 @@ function App() {
           Download <span className="btn2--version">v1.3</span>
         </button>
       </footer>
-    </>
+    </main>
   );
 }
 
