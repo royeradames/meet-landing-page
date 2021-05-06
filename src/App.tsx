@@ -17,9 +17,17 @@ function App() {
   return (
     <>
       <header className="header">
-        <img src={logo} alt="Meet logo" />
-        <img src={leftImg} alt="" className="header__left-img" />
-        <img src={rightImg} alt="" className="header__left-img" />
+        <img src={logo} alt="Meet logo" className="header__logo" />
+        <img
+          src={leftImg}
+          alt="selfies of people in a circle shape"
+          className="header__left-img"
+        />
+        <img
+          src={rightImg}
+          alt="selfies of people in a circle shape"
+          className="header__right-img"
+        />
         <div className="header__call-to-action">
           <h1 className="h1 header__call-to-action-title">
             Group Chat for Everyone
@@ -31,7 +39,9 @@ function App() {
           <button className="btn btn1 ">
             Download <span className="btn1--version">v1.3</span>
           </button>
-          <button className="btn btn2">What is it?</button>
+          <button className="btn btn2 header__call-to-action-btn2">
+            What is it?
+          </button>
         </div>
       </header>
       <main className="main">
