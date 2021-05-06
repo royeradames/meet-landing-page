@@ -1,3 +1,6 @@
+$desktop: 1440px;
+$table: 768px;
+
 .main{
     display: grid;
     grid-template: 
@@ -8,6 +11,18 @@
     gap: 2.5rem;
     justify-content: center;
 
+    @media(min-width: $table){
+        grid-template: 
+            15.6rem 
+            auto
+            /
+            16.4rem
+            16.4rem
+            16.4rem
+            16.4rem
+        ;
+        gap: 4.8rem 1.1rem;
+    }
     &__img{
         border-radius: .8rem;
     }
@@ -15,8 +30,19 @@
         grid-column: 1/-1;
         margin: 3.9rem 0 6.4rem 0;
 
+        @media(min-width: $table){
+            width: 57.3rem;
+            justify-self: center;
+
+            //top space move to grid gap 
+            margin: 0 0 8rem 0;
+        }
+        
         &-title{
             margin: 2.4rem 0 3.2rem 0;
+            @media(min-width: $table){
+                margin: 1.6rem 0 3.2rem 0;
+            }
         }
     }
 }
