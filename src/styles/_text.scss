@@ -40,3 +40,10 @@ $table: 76.8rem;
     color: var(--color-grey);
     font-size: var(--font-size-body);
 }
+
+.header__call-to-action-message, .main__message-content{
+    font-size: 1.6rem;
+    @media(min-width: $desktop){
+        font-size: var(--font-size-body);
+    }
+}
