@@ -1,0 +1,46 @@
+.header{
+    display: grid;
+    grid-template:
+        "logo logo" auto 
+        "img img" auto   
+        "action action" auto   
+        / 1fr 1fr
+    ;
+    justify-items: center;
+
+    &__logo{
+        grid-area: logo;
+        padding: 4.8rem 0  5.4rem 0;
+    }
+
+    &__call-to-action{
+        grid-area: action;
+        padding: 4.8rem 0  6.3rem 0;
+
+        display: grid;
+        grid-template:
+            1fr
+            / 32.7rem
+        ;
+        justify-content: center;
+        justify-items: center;
+        &-title{
+            text-align: center;
+        }
+        &-message{
+            margin: 2.3rem 0 3.2rem 0;
+            text-align: center;
+        }
+        &-btn2{
+            margin-top: 1.6rem;
+        }
+    }
+    &__left-img{
+        position: relative;
+        right: 2rem;
+    }
+    &__right-img{
+        position: relative;
+        left: 1.9rem;
+    }
+}
