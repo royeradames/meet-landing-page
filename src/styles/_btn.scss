@@ -1,0 +1,22 @@
+.btn1{
+    background-color: var(--color-green);
+    color: var(--color-white);
+    padding: 1.6rem 3.1rem 1.6rem 2.9rem;
+    &--version{
+        color: var(--color-blue);
+    }
+    &:hover{
+        background-color: #71C0D4;
+    }
+}
+.btn2{
+    background-color: var(--color-purple-400);
+    color: var(--color-white);
+    padding: 1.6rem 3.1rem 1.6rem 2.9rem;
+    &--version{
+        color: var(--color-purple-100);
+    }
+    &:hover{
+        background-color: #B18BDD;
+    }
+}
