@@ -25,10 +25,10 @@ function App() {
             Meet makes it easy to connect with others face-to-face virtually and
             collaborate across any device.
           </p>
-          <button className="btn1 download">
-            Download <span className="download--version">v1.3</span>
+          <button className="btn1 ">
+            Download <span className="btn1--version">v1.3</span>
           </button>
-          <button className="button2 what-is-it">What is it?</button>
+          <button className="btn2">What is it?</button>
         </div>
       </header>
       <main className="main">
@@ -70,8 +70,8 @@ function App() {
           Stay connected with reliable HD meetings and unlimited one-on-one and
           group video sessions.
         </p>
-        <button className="button2 download">
-          Download <span className="download--version">v1.3</span>
+        <button className="btn2 ">
+          Download <span className="btn2--version">v1.3</span>
         </button>
       </footer>
     </>
